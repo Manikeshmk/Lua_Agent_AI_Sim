@@ -156,6 +156,16 @@ end
 function love.mousepressed(x, y, button)
     sim.renderer:mousepressed(x, y, button)
     sim.debugger:mousepressed(x, y, button)
+    -- Sync debugger selection with renderer
+    if button == 1 and sim.renderer.selected then
+        sim.debugger:setSelected(sim.renderer.selected)
+    end
+end
+
+function love.mousereleased(x, y, button)
+    if button == 2 then
+        sim.renderer.dragging = false
+    end
 end
 
 function love.wheelmoved(x, y)
