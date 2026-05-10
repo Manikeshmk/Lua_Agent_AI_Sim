@@ -1,0 +1,5 @@
+-- data/fonts/README.md
+-- Place monospace font files here.
+-- Default: the engine uses love.graphics.newFont() fallback if no font file exists.
+-- Recommended: Download a monospace font like JetBrains Mono, Fira Code, or IBM Plex Mono
+-- and place it here as "mono.ttf".

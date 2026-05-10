@@ -1,0 +1,40 @@
+# LuaAgentSim .gitignore
+
+# LÖVE2D save data
+saves/
+*.love
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build artifacts
+*.o
+*.so
+*.dll
+*.exe
+*.out
+
+# Lua bytecode
+*.luac
+luac.out
+
+# Temp files
+*.tmp
+*.bak
+*.log
+
+# SQLite databases
+*.db
+*.sqlite3
+
+# Gemini
+.gemini/

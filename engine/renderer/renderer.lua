@@ -59,7 +59,8 @@ function Renderer.new(world, ecs, agentMgr)
     -- Font
     r.fontSmall  = love.graphics.newFont(10)
     r.fontMedium = love.graphics.newFont(13)
-    r.fontMono   = love.graphics.newFont("data/fonts/mono.ttf", 11) or r.fontSmall
+    local monoOk, monoFont = pcall(love.graphics.newFont, "data/fonts/mono.ttf", 11)
+    r.fontMono   = monoOk and monoFont or r.fontSmall
 
     -- Faction colors (generated dynamically)
     r.factionColors = {}
