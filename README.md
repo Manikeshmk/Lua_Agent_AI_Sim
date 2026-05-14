@@ -1,10 +1,6 @@
 # LuaAgentSim — Multi-Agent AI Simulation Engine
 
 <p align="center">
-  <img src="docs/banner.png" alt="LuaAgentSim Banner" width="800"/>
-</p>
-
-<p align="center">
   <a href="https://www.lua.org/"><img src="https://img.shields.io/badge/language-Lua%205.4%20%2F%20LuaJIT-blue?logo=lua" alt="Lua"/></a>
   <a href="https://love2d.org/"><img src="https://img.shields.io/badge/renderer-LÖVE2D%2011.x-ff69b4?logo=love2d" alt="LÖVE2D"/></a>
   <a href="https://www.sqlite.org/"><img src="https://img.shields.io/badge/storage-SQLite-green?logo=sqlite" alt="SQLite"/></a>
