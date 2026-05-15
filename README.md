@@ -95,7 +95,7 @@ LuaAgentSim/
 
 ```bash
 # Clone
-git clone https://github.com/Manikeshmk/Lua.git
+git clone https://github.com/Manikeshmk/Lua_Agent_AI_Sim.git
 cd Lua
 
 # Launch with LÖVE2D
